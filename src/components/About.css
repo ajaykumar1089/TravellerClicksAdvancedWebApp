@@ -1,0 +1,37 @@
+side-menu {
+      width: 250px;
+      background: #0d6efd;
+      color: white;
+      position: fixed;
+      top: 0;
+      left: -250px;
+      height: 100%;
+      transition: all 0.3ss;
+      z-index: 999;
+      padding-top: 60px;
+    }
+
+    .side-menu.active {
+      left: 0;
+    }
+
+    .side-menu a {
+      display: block;
+      color: white;
+      padding: 15px 20px;
+      text-decoration: none;
+    }
+
+    .side-menu a:hover {
+      background: #084298;
+    }
+
+    .menu-toggle {
+      cursor: pointer;
+      position: absolute;
+      left: 5px;
+      top: 87px;
+      font-size: 20px;
+      color: darkblue;
+      z-index: 1001;
+    }
